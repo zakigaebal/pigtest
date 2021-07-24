@@ -9,7 +9,7 @@
   <meta name="description" content="십이간지 연애유형">
 
   <!-- sns share -->
-  <meta property="og:url" content="https://twelvelovetype.netlify.app" />
+  <meta property="og:url" content="https://www.namoham.com/pigtest" />
   <meta property="og:title" content="십이간지 연애유형" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="img/share.png" />
@@ -30,8 +30,8 @@
   <link rel="stylesheet" href="./css/result.css">
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
   <script>
-  //Kakao.init(JavaScript Key);
-  //Kakao.isInitialized();
+    Kakao.init('9c9e8d1a65c548f88161886137aecb4a');
+    Kakao.isInitialized();
   </script>
 </head>
 
@@ -56,20 +56,9 @@
       <div class="qBox my-5 py-3 mx-auto">
 
       </div>
+      <div class="answerBox">
 
-      <div class="row row-cols-1 row-cols-md-2 g-2 answerBox mx-auto">
-        <div class="col">
-          <div class="card">
-            <img src="./img/main.png" class="card-img-top leftImage" alt="...">
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./img/main.png" class="card-img-top rightImage" alt="...">
-          </div>
-        </div>
       </div>
-
     </section>
     <section id="result" class="mx-auto my-5 py-5 px-3">
       <h1>당신의 결과는?!</h1>
@@ -84,7 +73,6 @@
       </div>
       <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">공유하기</button>
     </section>
-
     <script src="./js/data.js" charset="utf-8"></script>
     <script src="./js/start.js" charset="utf-8"></script>
     <script src="./js/share.js" charset="utf-8"></script>
