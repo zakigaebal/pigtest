@@ -1,4 +1,4 @@
-const url = 'https://www.namoham.com/pigtest/';
+const url = 'https://www.namoham.com/pigtest';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
