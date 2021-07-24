@@ -1,10 +1,20 @@
-#main{
+#main {
   background-color: whitesmoke;
   width: 80%;
   text-align: center;
   border-radius: 20px;
 }
 
-p{
+p {
   font-size: 20px;
+}
+
+.kakao_ad {
+  width: 320px;
+  margin: 0 auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
 }
