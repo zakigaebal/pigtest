@@ -1,4 +1,4 @@
-#result{
+#result {
   display: none;
   background-color: whitesmoke;
   width: 80%;
@@ -6,43 +6,45 @@
   border-radius: 20px;
 }
 
-#shareResult{
+#shareResult {
   background-color: whitesmoke;
   width: 80%;
   text-align: center;
   border-radius: 20px;
 }
 
-.resultname{
+.resultname {
   font-size: 26px;
 }
 
-.resultDesc{
+.resultDesc {
   font-size: 20px;
 }
 
-.kakao{
+.kakao {
   color: white;
-  background-color: #FEE500;
+  background-color: #fee500;
   font-size: 20px;
   border: 0px;
   border-radius: 20px;
 }
 
-.kakao:hover, .kakao:focus {
+.kakao:hover,
+.kakao:focus {
   background-color: whitesmoke;
-  color: #FEE500;
+  color: #fee500;
 }
 
-.gohome{
+.gohome {
   color: white;
-  background-color: pink;
+  background-color: brown;
   font-size: 20px;
   border: 0px;
   border-radius: 20px;
 }
 
-.gohome:hover, .gohome:focus {
+.gohome:hover,
+.gohome:focus {
   background-color: whitesmoke;
-  color: pink;
+  color: blue;
 }
