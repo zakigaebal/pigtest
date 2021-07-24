@@ -5,8 +5,8 @@ function setShare(){
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '당신의 결과는???';
   const shareDes = infoList[resultAlt].name;
-  const shareImage = url + 'img/image-' + resultAlt + '.png';
-  const shareURL = url + 'page/result-' + resultAlt + '.html';
+  const shareImage = url + '/img/image-' + resultAlt + '.png';
+  const shareURL = url + '/page/result-' + resultAlt + '.html';
 
   Kakao.Link.sendDefault({
     objectType: 'feed',
