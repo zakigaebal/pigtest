@@ -1,16 +1,16 @@
 /*
-mouse,0
-cow,1
-tiger,2
-rabbit,3
-dragon,4
-snake,5
-horse,6
-sheep,7
-monkey,8
-chick,9
-dog,10
-pig,11
+뚱돼지,0
+개돼지,1
+씹돼지,2
+귀여운돼지,3
+통돼지,4
+퉁돼지,5
+씹덕돼지,6
+개씹덕돼지,7
+통구이돼지,8
+왕돼지,9
+지구신돼지,10
+우주돼지,11
 */
 
 const qnaList = [
