@@ -5,3 +5,16 @@ body {
 * {
   font-family: "Nanum Pen Script", cursive;
 }
+.eventeffect_logo {
+  width: 96px;
+  margin: 0 auto;
+}
+article {
+  display: flex;
+  flex-direction: column;
+}
+.copyright-text {
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  color: #7c7c7c;
+}
