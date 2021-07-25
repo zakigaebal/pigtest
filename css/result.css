@@ -48,3 +48,18 @@
   background-color: whitesmoke;
   color: blue;
 }
+
+.Urlcopy {
+  border-color: #1a7cff;
+}
+
+.Urlcopy:hover {
+  background: #1a7cff;
+}
+.Insta {
+  border-color: #dd2a7b;
+}
+
+.Insta:hover {
+  background: #dd2a7b;
+}

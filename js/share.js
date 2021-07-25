@@ -31,3 +31,12 @@ function setShare(){
     ]
   });
 }
+
+const copy = () => {
+  const tmp = document.createElement('textarea');
+  document.body.appendChild(tmp);
+  tmp.value = url;
+  tmp.select();
+  document.execCommand('copy');
+  document.body.removeChild(tmp);
+}

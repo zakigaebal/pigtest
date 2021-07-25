@@ -52,8 +52,9 @@
         돼지체크 사이트입니다! <br>
         아래 시작하기 버튼을 눌러 시작해 주십시오.
       </p>
-      <button type="button" class="btn btn-outline-danger mt-3" onclick="js:begin()">시작하기</button>
-      
+      <div class="start-wrap">
+      <button type="button" class="start" onclick="js:begin()">시작하기</button>
+    </div>
     </section>
     <section id="qna">
       <div class="status mx-auto mt-5">
@@ -83,6 +84,16 @@
         <div style="padding-top: 20px; padding-bottom: 20px;">
         </div>
         <div class="hash">#심심할때 #친구랑 #공유하기</div>
+        <button class="btn Urlcopy" onclick="javascript:copy()">
+          사이트 링크 복사하기
+        </button>
+        <button
+        class="btn Insta"
+        onclick="window.open('https://www.namoham.com/pigtest/')"
+        target="/self"
+      >
+        다시하기
+      </button>
       </div>
     </section>
     <script src="./js/data.js" charset="utf-8"></script>
