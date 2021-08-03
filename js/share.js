@@ -53,7 +53,7 @@ const fb = () => {
 }
 const tw = () => {
   window.open('https://twitter.com/intent/tweet?text='
-    + title + '%0A' + '저는 ' + name + '' + hash + '%0A' + url,
+    + title + '%0A' + '저는 ' + '' + hash + '%0A' + url,
     'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
   return false;
 }
