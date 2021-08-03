@@ -1,4 +1,7 @@
 const url = 'https://www.namoham.com/pigtest';
+const title = '당신은 돼지인가?ㅋㅋㅋ ';
+const hash = '%2310_things_test %233분이미지테스트 %23이미지테스트 ';
+
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
@@ -39,4 +42,30 @@ const copy = () => {
   tmp.select();
   document.execCommand('copy');
   document.body.removeChild(tmp);
+}
+
+
+const fb = () => {
+  window.open('https://www.facebook.com/sharer/sharer.php?u='
+    + url + '&t=' + title + '' + hash,
+    'facebooksharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+  return false;
+}
+const tw = () => {
+  window.open('https://twitter.com/intent/tweet?text='
+    + title + '%0A' + '저는 ' + name + '' + hash + '%0A' + url,
+    'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+  return false;
+}
+const nv = () => {
+  window.open('http://share.naver.com/web/shareView.nhn?url='
+    + url + '&title=' + title,
+    'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+  return false;
+}
+const band = () => {
+  window.open('https://band.us/plugin/share?url='
+    + url + '&title=' + title,
+    'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+  return false;
 }

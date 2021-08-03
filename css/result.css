@@ -63,3 +63,58 @@
 .Insta:hover {
   background: #dd2a7b;
 }
+
+.tw {
+  background-image: url('../img/tw.svg');
+  /* 
+  자료 출처
+  http://www.vectorico.com/twitter-logo-white-on-blue/
+  */
+}
+.fb {
+  background-image: url('../img/fb.svg');
+  /* 
+  자료 출처
+  https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg
+  */
+}
+.nv {
+  background-image: url('../img/naver.png');
+  /*
+  자료 출처
+  https://www.facebook.com/184030231730640/photos/1175959155871071/
+  */
+}
+.band {
+  background-image: url('../img/band.png');
+  /*
+  자료 출처
+  https://upload.wikimedia.org/wikipedia/commons/3/30/2._BAND_Icon.png
+  */
+}
+
+.hash {
+  padding: 15px 7.5% 0;
+  color: rgba(0, 135, 245);
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+#share-box {
+  box-sizing: border-box;
+  margin: 25px 10% 30px 10%;
+  padding: 10px;
+  width: 80%;
+  height: 50px;
+  border-radius: 40px;
+  background: #222;
+}
+#share-box span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: cover;
+  cursor: pointer;
+}
